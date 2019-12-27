@@ -154,10 +154,10 @@ void loop() {
     digitalWrite(PIN_SELECTED, HIGH);
 
     // Play the tune
-    tone(13, song[thisNote], song[thisNote+1]/1.25);
+    tone(13, song[thisNote], song[thisNote+1]/1.5);
 
     // Output the voice after several minutes
-    delay(song[thisNote+2]/1.25);
+    delay(song[thisNote+2]/1.5);
 
     // Write LOW to LED
     digitalWrite(PIN_SELECTED, LOW);
